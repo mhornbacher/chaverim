@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "client",
-    "slug": "client",
+    "name": "chaverim",
+    "slug": "chaverim",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

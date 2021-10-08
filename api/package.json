@@ -1,0 +1,17 @@
+{
+  "version": "0.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "lab -v"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@hapi/code": "^8.0.3",
+    "@hapi/hapi": "^20.2.0",
+    "joi": "^17.4.2"
+  },
+  "devDependencies": {
+    "@hapi/lab": "^24.3.2"
+  }
+}
