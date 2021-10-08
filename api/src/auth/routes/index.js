@@ -1,8 +1,6 @@
 'use strict';
-const Joi = require('joi');
 
 module.exports = [
-    // POST /sign_in
-    require('./sign_in'),
-    require('./token'),
+    require('./sign_in'), // POST /auth/sign_in
+    require('./token'), // POST /auth/token
 ]

@@ -7,7 +7,6 @@ const { validate } = require('../otp');
 const jwt = require('@hapi/jwt');
 // const jwt.js = require("jsonwebtoken");
 
-// POST /sign_in
 module.exports = {
     method: 'POST',
     path: '/auth/sign_in',
