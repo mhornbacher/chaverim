@@ -4,8 +4,6 @@ const Boom = require('@hapi/boom');
 const bcrypt = require('bcrypt');
 const userStore = require('../../users/store');
 const { validate } = require('../otp');
-const jwt = require('@hapi/jwt');
-// const jwt.js = require("jsonwebtoken");
 
 module.exports = {
     method: 'POST',
