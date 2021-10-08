@@ -9,6 +9,10 @@
     "@hapi/boom": "^9.1.4",
     "@hapi/code": "^8.0.3",
     "@hapi/hapi": "^20.2.0",
+    "@hapi/jwt": "^2.1.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "hi-base32": "^0.5.1",
     "joi": "^17.4.2"
   },
   "devDependencies": {

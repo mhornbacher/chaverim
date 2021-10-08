@@ -10,14 +10,16 @@ describe('POST /auth/token', () => {
     beforeEach(async () => server = await init());
     afterEach(async () => await server.stop());
 
-    it('responds with 200', async () => {
+    it('refreshes token', async () => {
         const res = await server.inject({
             method: 'post',
             url: '/auth/token',
-            payload: {
-                number: '3477702297'
+            headers: {
+                'Authorization': `Bearer ${require('../../../src/auth/jwt').generate('3477702297')}`
             }
         });
+
         expect(res.statusCode).to.equal(200);
+        expect(res.result.token).to.not.be.undefined();
     });
 });
